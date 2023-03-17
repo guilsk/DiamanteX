@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            int x = 0;
+            int x;
             Console.Write("Digite um número ímpar: ");
             x = Convert.ToInt32(Console.ReadLine());
             while(x % 2 == 0)
